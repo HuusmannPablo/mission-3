@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello World</h1>
+      <div className="custom-search">
+        <script type="text/javascript" 
+          id="bcs_js_snippet"
+          // src="https://ui.customsearch.ai/api/ux/rendering-js?customConfig=97a80493-ccfb-4556-84cb-33529c545848&market=en-US&version=latest&q=">
+          src="https://ui.customsearch.ai/hosted-page?customconfig=97a80493-ccfb-4556-84cb-33529c545848&version=latest&market=en-US&q="
+          >
+        </script>  
+      </div> 
     </div>
   );
 }
