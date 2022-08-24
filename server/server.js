@@ -6,9 +6,9 @@
 
 const request = require("request");
 
-const subscriptionKey = 'c27b944e953b46cc8a42576693950f22';
+const subscriptionKey = '6f86aa72480946c890e359fb1047372c';
 const customConfigId = '97a80493-ccfb-4556-84cb-33529c545848';
-const searchTerm = 'car%20insurance';
+const searchTerm = 'Insurance';
 
 const info = {
     url: 'https://api.cognitive.microsoft.com/bingcustomsearch/v7.0/search?' + 
