@@ -2,7 +2,7 @@ import React from "react";
 
 export const Search = () => {
   return (
-    <div>
+    <div className="flex-main-container">
       <div className="custom-search">
         <script
           type="text/javascript"

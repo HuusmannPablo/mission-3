@@ -5,7 +5,9 @@ import { Search } from "./Search";
 function App() {
   return (
     <div className="App">
-      <h1>Turners Search Prototype</h1>
+      <div className="title-container">
+        <h1>Turners Search</h1>
+      </div>
       <Search />
     </div>
   );
